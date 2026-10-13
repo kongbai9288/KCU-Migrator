@@ -53,3 +53,15 @@ Minecraft 是 Mojang Studios 的商标。这工具不是官方的，不含游戏
 ## 测试版
 
 [KCU测试版](https://github.com/kongbai9288/mc-mod-migrator)
+
+## 启动器
+
+- [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) — 最早、最知名的 Android/iOS Java 版启动器，基于 Boardwalk。
+- [ZalithLauncher2](https://github.com/ZalithLauncher/ZalithLauncher2) — 基于 PojavLauncher 和 Jetpack Compose 重新设计的现代启动器。
+- [FoldCraftLauncher (FCL)](https://github.com/FCL-Team/FoldCraftLauncher) — 功能丰富、更新活跃的 Android Java 版启动器，支持模组管理。
+- [Amethyst-Android](https://github.com/AngelAuraMC/Amethyst-Android) — PojavLauncher 的官方继任项目。
+- [HMCL-PE](https://github.com/HMCL-dev/HMCL-PE) — Hello Minecraft! Launcher 的 Android 移植版（已停止维护）。
+- [MojoLauncher](https://github.com/MojoLauncher/MojoLauncher) — 基于 PojavLauncher 的启动器。
+- [MCinaBox](https://github.com/AOF-Dev/MCinaBox) — 较早期的 Android Java 版启动器，封装了 BoatApp。
+- [BoatApp](https://github.com/AOF-Dev/BoatApp) — 轻量级 Android Java 版启动环境。
+- [ShardLauncher](https://github.com/ShardLauncher/ShardLauncher) — 基于 Jetpack Compose 的移动端启动器。
