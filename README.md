@@ -52,4 +52,4 @@ Minecraft 是 Mojang Studios 的商标。这工具不是官方的，不含游戏
 
 ##测试版
 
-[]()
+[测试版](https://github.com/kongbai9288/mc-mod-migrator)
