@@ -92,7 +92,9 @@
 [KCU测试版](https://github.com/kongbai9288/mc-mod-migrator)
 - ⚠️注意：这可能会使你的运行出现严重错误，非测试人员请勿使用本版本（如你使用了此版本，造成的失误将自行承担）
 
-## 启动器
+## 友情链接
+
+### 启动器
 
 - [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) — 最早、最知名的 Android/iOS Java 版启动器，基于 Boardwalk。
 - [ZalithLauncher2](https://github.com/ZalithLauncher/ZalithLauncher2) — 基于 PojavLauncher 和 Jetpack Compose 重新设计的现代启动器。
