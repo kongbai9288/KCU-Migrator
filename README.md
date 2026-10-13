@@ -1,4 +1,4 @@
-![kcu logo](./IMG_20261013_005127.png)
+![kcu logo](./Kcu_icon.png)
 # KcuMigrator
 
 “更好的迁移就在你的手中”-----项目发起者kongbai9288
