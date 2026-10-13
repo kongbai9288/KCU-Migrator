@@ -3,11 +3,11 @@
 
 安卓上的 Minecraft Java 版模组迁移工具。
 
-换整合包、换游戏版本、换加载器的时候，把 mods、config、saves 搬过去。不用再对着几十个 jar 文件一个个去搜有没有新版。
+“更好的迁移就在你的手中”-----项目发起者kongbai9288
 
-支持 FCL、Zalith、Pojav、Amethyst、HMCL-PE、澪-Ultimate 这些启动器。基岩版用不了。
+支持 FCL、Zalith、Pojav、Amethyst、HMCL-PE、澪-Ultimate 等大部分安卓启动器（正在努力适配T_T）
 
-和 Mojang、各启动器、加载器都没关系，就是个第三方小工具。
+本项目使用AI生成代码，由人设计架构与实现方式，如有不赞成，可以暂停使用本项目
 
 ## 为什么写这个
 
