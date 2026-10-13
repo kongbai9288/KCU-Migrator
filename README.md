@@ -22,22 +22,71 @@
 
 ## 隐私
 
-代码里没凭据。没账号，没自建服务器（此处说的是没有中心化服务器即本项目提供一个默认的推荐方案但是去中心化），没统计，没广告。
+代码里没凭据。没账号，有后端（仅为github oauth与curseforge api使用，并且可以替换），没统计，没广告。
 
-联网的地方就几个：
 
-- 搜模组 / 查版本：给 Modrinth 发搜索词、MC 版本、加载器。
-- 按文件识别模组：发文件的 SHA-1，不是文件名也不是路径。
-- GitHub 登录：读写你自己的仓库，不存密码和 OAuth Secret。
-- 翻译：发模组简介文本，开离线模式就不发。
+- 如果对联网敏感，可以进入设置页面，关闭所有联网权限（尽量支持，如你发现我们出现了漏洞，欢迎提issue）
 
-卸载 App 会删掉本机数据（你自己导出的文件除外）。完整说明在 App 里：设置 → 关于 → 隐私说明。
+卸载 App 会删掉本机数据（工作目录等由您选定的运行部分和结果除外）。完整说明在 App 里：设置 → 关于 → 隐私说明。
 
 ## 许可
 
-MIT。第三方库许可见 `NOTICES.md` 或 App 内设置 → 关于 → 第三方开源许可。
+## 第三方开源许可与致谢
 
-Minecraft 是 Mojang Studios 的商标。这工具不是官方的，不含游戏本体、资源或受版权保护的素材。
+本项目在开发过程中参考并使用了以下优秀的开源项目和第三方服务，在此向所有作者表示感谢！
+
+### 核心依赖
+
+| 项目名称 | 许可证 | 用途说明 |
+| :--- | :--- | :--- |
+| [AndroidX](https://developer.android.com/jetpack/androidx) | Apache 2.0 | 基础 UI 组件、生命周期管理与核心框架支持 |
+| [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager) | Apache 2.0 | 后台定时检查更新、定时同步 |
+| [Material Components](https://github.com/material-components/material-components-android) | Apache 2.0 | 界面控件、主题、对话框、底部导航 |
+| [OkHttp](https://github.com/square/okhttp) | Apache 2.0 | 所有网络请求，多线程分块下载基础 |
+| [Gson](https://github.com/google/gson) | Apache 2.0 | JSON 数据解析 |
+| [Jsoup](https://github.com/jhy/jsoup) | MIT | 解析模组描述页面，提取下载链接 |
+| [Coil](https://github.com/coil-kt/coil) | Apache 2.0 | 加载模组图标 |
+
+###翻译引擎
+| 项目名称 | 许可证 | 用途说明 |
+| :--- | :--- | :--- |
+| [Google ML Kit Translate](https://developers.google.com/ml-kit/language/translation) | 非开源（受 Google APIs 条款约束） | 模组简介与网页的离线翻译（模型约 30MB，完全离线运行） |
+
+> **关于 ML Kit 的特别说明**：ML Kit SDK 与翻译模型本身受《Google APIs 使用条款》约束，非可自由再分发的开源组件。已知限制：仅限手机/平板/笔记本/台式机使用；用于汽车、电视、家电等嵌入式设备需 Google 事先书面许可。
+
+### 数据来源与 API
+| 项目名称 | 说明 |
+| :--- | :--- |
+| [Modrinth](https://modrinth.com) | 通过公开 HTTP API 读取模组元数据（平台代码为 AGPL-3.0，本项目仅通过 API 读取数据，不构成代码衍生） |
+| [CurseForge](https://www.curseforge.com) | 通过公开 API 与国内镜像 [MCIM](https://www.mcimirror.top) 读取模组元数据 |
+| [Pterodactyl](https://pterodactyl.io) | 客户端调用其 Client API（面板服务端为 MIT 许可） |
+| [GitHub REST API](https://docs.github.com/en/rest) | 用于读取 release 与仓库文件，遵循 GitHub 服务条款 |
+
+### 💡 参考实现（仅参考思路，未直接依赖代码）
+| 项目名称 | 许可证 | 参考点 |
+| :--- | :--- | :--- |
+| [lingochamp/FileDownloader](https://github.com/lingochamp/FileDownloader) | Apache 2.0 | 多任务并发、断点续传、分块下载调度思路（本项目按同样思路用 OkHttp 自行实现） |
+| [jackfengji/android-download-manager](https://github.com/jackfengji/android-download-manager) | MIT | HTTP Range 分块下载、并发任务数控制 |
+| [SirLYC/YC-Downloader](https://github.com/SirLYC/YC-Downloader) | MIT | 多任务队列、速度限制、进度回调节流 |
+
+### 🧩 NBT 读写与数据包生成器（可选功能）
+| 项目名称 | 许可证 | 用途说明 |
+| :--- | :--- | :--- |
+| [ViaNBT](https://github.com/ViaVersion/ViaNBT) | MIT | 读写 `level.dat` 等 NBT 格式文件 |
+| [misode.github.io](https://github.com/misode/misode.github.io) | MIT | 数据包与资源包生成器（内置 137 个生成器，离线可用） |
+| [misode-vianbt-android](https://github.com/kongbai9288/misode-vianbt-android) | MIT | 上述项目的 Android 适配版（替换 fastutil 依赖、移动端布局、离线打包） |
+
+### 🛠️ 系统组件
+- **Android Download Manager** (`android.app.DownloadManager`)：用于应用更新下载，断点续传与安装调起由系统提供。
+- **AndroidX Core / FileProvider** (Apache 2.0)：用于崩溃日志通过系统分享面板发送给其他应用。
+- **Material Icons** ([fonts.google.com/icons](https://fonts.google.com/icons)) (Apache 2.0)：本项目所有图标资源。
+
+---
+
+**说明：**
+- 本项目自身代码未使用任何 copyleft（GPL/AGPL/LGPL）组件。
+- 如您发现本项目使用了未在此列出的第三方代码，或认为存在许可冲突，欢迎提交 Issue。
+- 此列表随版本更新，以应用内最新版本为准。。
 
 ## 测试版
 
