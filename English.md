@@ -1,4 +1,4 @@
-![kcu logo](./IMG_20261013_005127.png)
+![kcu logo](./Kcu_icon.png)
 # KcuMigrator
 
 "Better migration is in your hands" ----- Project initiator kongbai9288
