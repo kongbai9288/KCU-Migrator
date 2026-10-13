@@ -67,7 +67,7 @@
 | [jackfengji/android-download-manager](https://github.com/jackfengji/android-download-manager) | MIT | HTTP Range 分块下载、并发任务数控制 |
 | [SirLYC/YC-Downloader](https://github.com/SirLYC/YC-Downloader) | MIT | 多任务队列、速度限制、进度回调节流 |
 
-### NBT 读写与数据包生成器（可选功能）
+### NBT 读写与数据包生成器
 | 项目名称 | 许可证 | 用途说明 |
 | :--- | :--- | :--- |
 | [ViaNBT](https://github.com/ViaVersion/ViaNBT) | MIT | 读写 `level.dat` 等 NBT 格式文件 |
