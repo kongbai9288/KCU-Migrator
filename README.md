@@ -50,6 +50,6 @@ MIT。第三方库许可见 `NOTICES.md` 或 App 内设置 → 关于 → 第三
 
 Minecraft 是 Mojang Studios 的商标。这工具不是官方的，不含游戏本体、资源或受版权保护的素材。
 
-##测试版
+## 测试版
 
-[测试版](https://github.com/kongbai9288/mc-mod-migrator)
+[KCU测试版](https://github.com/kongbai9288/mc-mod-migrator)
