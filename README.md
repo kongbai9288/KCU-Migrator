@@ -1,5 +1,5 @@
 ![kcu logo](./IMG_20261013_005127.png)
-# KcuModMigrator
+# KcuMigrator
 
 “更好的迁移就在你的手中”-----项目发起者kongbai9288
 
