@@ -49,3 +49,7 @@ Minecraft 大版本一更新，旧模组基本全废。你得先看旧版本装�
 MIT。第三方库许可见 `NOTICES.md` 或 App 内设置 → 关于 → 第三方开源许可。
 
 Minecraft 是 Mojang Studios 的商标。这工具不是官方的，不含游戏本体、资源或受版权保护的素材。
+
+##测试版
+
+ kongbai9288/mc-mod-migrator
