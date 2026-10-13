@@ -66,6 +66,7 @@
 | [lingochamp/FileDownloader](https://github.com/lingochamp/FileDownloader) | Apache 2.0 | 多任务并发、断点续传、分块下载调度思路（本项目按同样思路用 OkHttp 自行实现） |
 | [jackfengji/android-download-manager](https://github.com/jackfengji/android-download-manager) | MIT | HTTP Range 分块下载、并发任务数控制 |
 | [SirLYC/YC-Downloader](https://github.com/SirLYC/YC-Downloader) | MIT | 多任务队列、速度限制、进度回调节流 |
+| [Blocktopograph](https://github.com/MithrilMania/Blocktopograph) | GPL-3.0 | 参考了其使用逻辑
 
 ### NBT 读写与数据包生成器
 | 项目名称 | 许可证 | 用途说明 |
