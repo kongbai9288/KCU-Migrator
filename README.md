@@ -47,7 +47,7 @@
 | [Jsoup](https://github.com/jhy/jsoup) | MIT | 解析模组描述页面，提取下载链接 |
 | [Coil](https://github.com/coil-kt/coil) | Apache 2.0 | 加载模组图标 |
 
-###翻译引擎
+### 翻译引擎
 | 项目名称 | 许可证 | 用途说明 |
 | :--- | :--- | :--- |
 | [Google ML Kit Translate](https://developers.google.com/ml-kit/language/translation) | 非开源（受 Google APIs 条款约束） | 模组简介与网页的离线翻译（模型约 30MB，完全离线运行） |
@@ -62,21 +62,21 @@
 | [Pterodactyl](https://pterodactyl.io) | 客户端调用其 Client API（面板服务端为 MIT 许可） |
 | [GitHub REST API](https://docs.github.com/en/rest) | 用于读取 release 与仓库文件，遵循 GitHub 服务条款 |
 
-### 💡 参考实现（仅参考思路，未直接依赖代码）
+### 参考实现（仅参考思路，未直接依赖代码）
 | 项目名称 | 许可证 | 参考点 |
 | :--- | :--- | :--- |
 | [lingochamp/FileDownloader](https://github.com/lingochamp/FileDownloader) | Apache 2.0 | 多任务并发、断点续传、分块下载调度思路（本项目按同样思路用 OkHttp 自行实现） |
 | [jackfengji/android-download-manager](https://github.com/jackfengji/android-download-manager) | MIT | HTTP Range 分块下载、并发任务数控制 |
 | [SirLYC/YC-Downloader](https://github.com/SirLYC/YC-Downloader) | MIT | 多任务队列、速度限制、进度回调节流 |
 
-### 🧩 NBT 读写与数据包生成器（可选功能）
+### NBT 读写与数据包生成器（可选功能）
 | 项目名称 | 许可证 | 用途说明 |
 | :--- | :--- | :--- |
 | [ViaNBT](https://github.com/ViaVersion/ViaNBT) | MIT | 读写 `level.dat` 等 NBT 格式文件 |
 | [misode.github.io](https://github.com/misode/misode.github.io) | MIT | 数据包与资源包生成器（内置 137 个生成器，离线可用） |
 | [misode-vianbt-android](https://github.com/kongbai9288/misode-vianbt-android) | MIT | 上述项目的 Android 适配版（替换 fastutil 依赖、移动端布局、离线打包） |
 
-### 🛠️ 系统组件
+### 系统组件
 - **Android Download Manager** (`android.app.DownloadManager`)：用于应用更新下载，断点续传与安装调起由系统提供。
 - **AndroidX Core / FileProvider** (Apache 2.0)：用于崩溃日志通过系统分享面板发送给其他应用。
 - **Material Icons** ([fonts.google.com/icons](https://fonts.google.com/icons)) (Apache 2.0)：本项目所有图标资源。
@@ -91,6 +91,7 @@
 ## 测试版
 
 [KCU测试版](https://github.com/kongbai9288/mc-mod-migrator)
+- ⚠️注意：这可能会使你的运行出现严重错误，非测试人员请勿使用本版本（如你使用了此版本，造成的失误将自行承担）
 
 ## 启动器
 
