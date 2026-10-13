@@ -1,3 +1,4 @@
+[English](Ehglish.md) | [中文](README.md)
 ![kcu logo](./Kcu_icon.png)
 # KcuMigrator
 
