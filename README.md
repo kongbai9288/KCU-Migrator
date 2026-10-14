@@ -100,14 +100,78 @@
 
 ## 友情链接
 
-### 启动器
+## 安卓 Java 版启动器
 
-- [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) — 最早、最知名的 Android/iOS Java 版启动器，基于 Boardwalk。
-- [ZalithLauncher2](https://github.com/ZalithLauncher/ZalithLauncher2) — 基于 PojavLauncher 和 Jetpack Compose 重新设计的现代启动器。
-- [FoldCraftLauncher (FCL)](https://github.com/FCL-Team/FoldCraftLauncher) — 功能丰富、更新活跃的 Android Java 版启动器，支持模组管理。
-- [Amethyst-Android](https://github.com/AngelAuraMC/Amethyst-Android) — PojavLauncher 的官方继任项目。
-- [HMCL-PE](https://github.com/HMCL-dev/HMCL-PE) — Hello Minecraft! Launcher 的 Android 移植版（已停止维护）。
-- [MojoLauncher](https://github.com/MojoLauncher/MojoLauncher) — 基于 PojavLauncher 的启动器。
-- [MCinaBox](https://github.com/AOF-Dev/MCinaBox) — 较早期的 Android Java 版启动器，封装了 BoatApp。
-- [BoatApp](https://github.com/AOF-Dev/BoatApp) — 轻量级 Android Java 版启动环境。
-- [ShardLauncher](https://github.com/ShardLauncher/ShardLauncher) — 基于 Jetpack Compose 的移动端启动器。
+### 活跃维护 / 主流推荐
+
+| 启动器名称 | 地址 | 核心说明 |
+|---|---|---|
+| **PojavLauncher** | [https://github.com/PojavLauncherTeam/PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) | 所有安卓 Java 版启动器的“老祖宗”，基于 Boardwalk 开发。现已由 Amethyst-Android 接替。 |
+| **Amethyst-Android** | [https://github.com/AngelAuraMC/Amethyst-Android](https://github.com/AngelAuraMC/Amethyst-Android) | PojavLauncher 的官方继任项目，支持几乎所有 Java 版版本（从 rd-132211 到最新快照）。 |
+| **FoldCraftLauncher (FCL)** | [https://github.com/FCL-Team/FoldCraftLauncher](https://github.com/FCL-Team/FoldCraftLauncher) | 基于 HMCL 核心功能 + PojavLauncher/Amethyst 后端，支持全模组加载器，内置多版本 Java 运行时。GPL-3.0。 |
+| **ZalithLauncher 2 (ZL2)** | [https://github.com/ZalithLauncher/ZalithLauncher2](https://github.com/ZalithLauncher/ZalithLauncher2) | 基于 PojavLauncher 核心 + Jetpack Compose + Material Design 3，现代化 UI，当前社区最活跃的启动器之一。GPL-3.0。 |
+| **MojoLauncher / MJLauncher** | [https://github.com/MojoLauncher/MojoLauncher](https://github.com/MojoLauncher/MojoLauncher) | 基于 PojavLauncher 的衍生项目。注意：MJLauncher 是 MojoLauncher 更名后的版本，两者为同一项目。 |
+| **ShardLauncher** | [https://github.com/ShardLauncher/ShardLauncher](https://github.com/ShardLauncher/ShardLauncher) | 基于 Jetpack Compose 的移动端启动器，☆127，规模较小但仍在更新。 |
+| **TurtleLauncher** | [https://github.com/Endiq-jar/TurtleLauncher](https://github.com/Endiq-jar/TurtleLauncher) | 基于 Boardwalk 的现代化启动器，Material 3 设计，支持 Fabric/Quilt/Forge/NeoForge，GPL-3.0 开源。 |
+| **DroidBridge Launcher** | [https://play.google.com/store/search?q=DroidBridge%20Launcher](https://play.google.com/store/search?q=DroidBridge%20Launcher) | 独立安卓启动器框架，面向正版 Java 版用户，支持手机/平板/掌机/手柄/键鼠等多种输入设备。 |
+| **澪-Ultimate (Mio Launcher Ultimate)** | [https://github.com/mio-launcher/MioLauncherUltimate](https://github.com/mio-launcher/MioLauncherUltimate) | 使用 Boat 内核，启动速度快，控制器（按键布局）设计较好。 |
+| **Pojav Zenith Horizon (PZH)** | [https://github.com/MCSP-Site/PojavZenithHorizon](https://github.com/MCSP-Site/PojavZenithHorizon) | 由墨北MovTery基于 PojavLauncher 深度魔改，是其后续项目 ZalithLauncher 的前身。 |
+| **SolCraftLauncher** | [https://github.com/SCL-ARCHIVE/SolCraftLauncher](https://github.com/SCL-ARCHIVE/SolCraftLauncher) | PojavLauncher/Amethyst 的 Fork，增加了更多技术特性、新渲染器和 QOL 改进。 |
+| **XDAetherium** | [https://github.com/Promastergame/XDAetherium](https://github.com/Promastergame/XDAetherium) | 基于 Amethyst/PojavLauncher 的 Fork，支持 Ely.by 账户和离线账户，优化了 ARM 设备性能。 |
+| **Log4Java** | [https://www.rustore.ru/](https://www.rustore.ru/)（RuStore 搜索 Log4Java） | 基于 MojoLauncher 的启动器，支持所有 Minecraft 版本及 Forge/Fabric 等模组加载器。 |
+| **CRAZElauncher** | [https://github.com/Mehetab1234/CRAZElauncher](https://github.com/Mehetab1234/CRAZElauncher) | Zalith Launcher 的社区重制版本，致力于优化用户体验、降低游玩门槛。 |
+| **Titan Launcher** | [https://play.google.com/store/search?q=Titan%20Launcher%20Minecraft](https://play.google.com/store/search?q=Titan%20Launcher%20Minecraft) | 一款在 Google Play 上架的 Minecraft Java 版启动器，提供免费下载。 |
+| **DuckCraft Launcher** | [https://uyen11a1-star.github.io](https://uyen11a1-star.github.io) | 基于 MojoLauncher/PojavLauncher 稳定引擎，支持全版本、Forge/Fabric 模组，内置模组浏览器。 |
+| **Dawnland Launcher** | NexusMC 社区发布（可于 [https://nexusmc.org](https://nexusmc.org) 搜索） | 极速、轻量、跨平台的现代 Minecraft 启动器，支持多实例与模组管理。 |
+| **PojavLauncherPlus** | [https://github.com/L10NDev/PojavLauncherPlus](https://github.com/L10NDev/PojavLauncherPlus) | 基于原版 PojavLauncher 的功能拓展优化版，支持自定义版本隔离、Mod 管理、直连服务器等。 |
+| **Su** | [https://github.com/carrot12327/Su](https://github.com/carrot12327/Su) | 基于 PojavLauncher 的启动器，支持从 rd-132211 到最新快照的几乎所有版本。 |
+| **Pojav-Glow-Worm** | [https://github.com/Vera-Firefly/Pojav-Glow-Worm](https://github.com/Vera-Firefly/Pojav-Glow-Worm) | PojavLauncher 的修改版，增加了更多实用功能。非官方版本。 |
+| **Pojav-Mobileglues** | [https://github.com/coder-fast/Pojav-Mobileglues](https://github.com/coder-fast/Pojav-Mobileglues) | PojavLauncher 的修改版，集成了 MobileGlues 渲染器，旨在提升兼容性与性能。非官方版本。 |
+
+### 已停止维护 / 归档参考
+
+| 启动器名称 | 地址 | 状态说明 |
+|---|---|---|
+| **ZalithLauncher (一代)** | [https://github.com/ZalithLauncher/ZalithLauncher](https://github.com/ZalithLauncher/ZalithLauncher) | ZL2 的前身项目，已归档，由 ZL2 接替。 |
+| **HMCL-PE** | [https://github.com/HMCL-dev/HMCL-PE](https://github.com/HMCL-dev/HMCL-PE) | Hello Minecraft! Launcher 的 Android 移植版，已停止维护。官方推荐使用 FCL 或 PojavLauncher。 |
+| **HMCL-PE-Zink** | [https://github.com/Vera-Firefly/HMCL-PE-Zink](https://github.com/Vera-Firefly/HMCL-PE-Zink) | HMCL-PE 社区分支，尝试整合 Zink 渲染器，已停止。 |
+| **MCinaBox** | [https://github.com/AOF-Dev/MCinaBox](https://github.com/AOF-Dev/MCinaBox) | 早期安卓 Java 版启动器，封装了 BoatApp，已停止更新。 |
+| **BoatApp** | [https://github.com/AOF-Dev/Boat](https://github.com/AOF-Dev/Boat) | 轻量级 Android Java 版运行环境，是 MCinaBox、澪-Ultimate 等项目的底层依赖。已归档。 |
+| **Boardwalk** | [https://github.com/zhuowei/Boardwalk](https://github.com/zhuowei/Boardwalk) | PojavLauncher 的底层项目，已不再活跃开发。 |
+| **TofuCraftLauncher** | [https://github.com/Redstone2337/TofuCraftLauncher](https://github.com/Redstone2337/TofuCraftLauncher) | 基于 FCL 的 fork，社区维护，活跃度较低。 |
+| **PojavLauncher-ltw-quick-settings** | [https://github.com/TransBluelight/PojavLauncher-ltw-quick-settings](https://github.com/TransBluelight/PojavLauncher-ltw-quick-settings) | PojavLauncher 的 LTW 渲染器快速设置分支，已归档。 |
+| **PojavLauncher-Beta-Zink** | [https://github.com/ogdsjfg/PojavLauncher-Beta-Zink](https://github.com/ogdsjfg/PojavLauncher-Beta-Zink) | PojavLauncher 的 Beta 分支，专注于 Zink 渲染器优化，已停止更新。 |
+
+### 渲染器（核心翻译层）
+
+| 渲染器名称 | 地址 | 核心说明 |
+|---|---|---|
+| **Holy GL4ES** | [https://github.com/AngelAuraMC/HolyGL4ES](https://github.com/AngelAuraMC/HolyGL4ES) | PojavLauncher 的默认渲染器，专为性能优化，支持 OpenGL 2.1，兼容所有版本，适合 1.16.5 及更早版本[reference:0]。 |
+| **MobileGlues (MG)** | [https://github.com/MobileGL-Dev/MobileGlues-release](https://github.com/MobileGL-Dev/MobileGlues-release) | 现代全能之选，基于 OpenGL ES 3.2，性能卓越，完美支持 Sodium、Iris 光影及大型模组，推荐用于 1.17+ 版本[reference:1]。 |
+| **Zink (Vulkan Zink)** | [https://gitlab.freedesktop.org/mesa/mesa/-/tree/main/src/gallium/drivers/zink](https://gitlab.freedesktop.org/mesa/mesa/-/tree/main/src/gallium/drivers/zink) | 基于 Vulkan 的 OpenGL 转换层，模组与光影兼容性极强，但性能较低，更适合 Adreno GPU（骁龙）设备[reference:2]。 |
+| **ANGLE** | [https://github.com/google/angle](https://github.com/google/angle) | 运行在 Vulkan 上，支持 OpenGL 3.2，仅适用于 1.17+ 版本。在 iOS 上性能优于 Holy GL4ES，但在 Android 上已被 LTW 取代[reference:3]。 |
+| **LTW (Large Thin Wrapper)** | [https://github.com/MojoLauncher/LTW](https://github.com/MojoLauncher/LTW) | 专为 PojavLauncher 优化的实验性渲染器，针对新版 Minecraft 特别适配，能直接运行 Sodium 等优化模组[reference:4]。 |
+| **VirGL** | [https://virglrenderer.pages.freedesktop.org/](https://virglrenderer.pages.freedesktop.org/) | 通过虚拟 GPU 实现硬件加速的 OpenGL，在支持的设备上性能较好。FCL 内置支持[reference:5]。 |
+| **NG-GL4ES / Krypton Wrapper** | [https://github.com/BZLZHH/NG-GL4ES](https://github.com/BZLZHH/NG-GL4ES) | GL4ES 的现代化 Fork，支持更高级的着色器，可运行几乎所有版本的 Minecraft，效率与 GL4ES 相近[reference:6]。 |
+| **Open4ES** | [https://github.com/AnikyMX/Open4ES-Shader-Android](https://github.com/AnikyMX/Open4ES-Shader-Android) | 基于 GL4ES 的光影项目，将 SEUS 等著名光影转换为可在安卓 Java 版上运行，兼容 Adreno、Mali 和 PowerVR GPU[reference:7]。 |
+
+### 渲染器（驱动与虚拟化）
+
+| 渲染器名称 | 地址 | 核心说明 |
+|---|---|---|
+| **Freedreno** | [https://gitlab.freedesktop.org/mesa/mesa/-/tree/main/src/gallium/drivers/freedreno](https://gitlab.freedesktop.org/mesa/mesa/-/tree/main/src/gallium/drivers/freedreno) | 针对高通 Adreno GPU 的 Mesa 驱动，可开启部分光影，但性能极低，仅适用于非常老旧的骁龙设备[reference:8]。 |
+| **VGPU** | 已集成至 Holy GL4ES | 虚拟 GPU 实现，曾作为独立渲染器，现已集成至 Holy GL4ES 中，不再单独提供[reference:9]。 |
+
+### 渲染器（Mod / 替代方案）
+
+| 名称 | 地址 | 核心说明 |
+|---|---|---|
+| **VulkanMod** | [https://github.com/shindozk/VulkanMod-Android-ARM64](https://github.com/shindozk/VulkanMod-Android-ARM64) | 将 Minecraft 的 OpenGL 渲染器替换为 Vulkan 的 Mod，专为 ARM64 安卓设备优化，适用于 Zalith Launcher 和 PojavLauncher。 |
+
+### 相关工具
+
+| 名称 | 地址 | 说明 |
+|---|---|---|
+| **FCL 第三方下载站** | [https://github.com/XiaoluoFoxington/FCL.website.NEXT](https://github.com/XiaoluoFoxington/FCL.website.NEXT) | 社区自发搭建的 FCL 非官方下载站，提供 FCL、ZL 及渲染器、驱动、Java 等资源。 |
+| **EnchantNet** | [https://github.com/FCL-Team/EnchantNet](https://github.com/FCL-Team/EnchantNet) | FCL 团队的远程连接工具，用于 Minecraft: Java Edition。 |
+| **OpenJDK-Builder** | [https://github.com/aaaapai/OpenJDK-Builder](https://github.com/aaaapai/OpenJDK-Builder) | 为安卓启动器提供 Java 运行环境的构建工具。 |
