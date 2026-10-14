@@ -114,7 +114,7 @@
 | **ShardLauncher** | [https://github.com/ShardLauncher/ShardLauncher](https://github.com/ShardLauncher/ShardLauncher) | 基于 Jetpack Compose 的移动端启动器，☆127，规模较小但仍在更新。 |
 | **TurtleLauncher** | [https://github.com/Endiq-jar/TurtleLauncher](https://github.com/Endiq-jar/TurtleLauncher) | 基于 Boardwalk 的现代化启动器，Material 3 设计，支持 Fabric/Quilt/Forge/NeoForge，GPL-3.0 开源。 |
 | **DroidBridge Launcher** | [https://play.google.com/store/search?q=DroidBridge%20Launcher](https://play.google.com/store/search?q=DroidBridge%20Launcher) | 独立安卓启动器框架，面向正版 Java 版用户，支持手机/平板/掌机/手柄/键鼠等多种输入设备。 |
-| **澪-Ultimate (Mio Launcher Ultimate)** | [https://github.com/mio-launcher/MioLauncherUltimate](https://github.com/mio-launcher/MioLauncherUltimate) | 使用 Boat 内核，启动速度快，控制器（按键布局）设计较好。 |
+| **澪-Ultimate (Mio Launcher Ultimate)** | 该版本没有独立仓库，请使用bilibili搜索下载 | 使用 Boat 内核，启动速度快，控制器（按键布局）设计较好。 |
 | **Pojav Zenith Horizon (PZH)** | [https://github.com/MCSP-Site/PojavZenithHorizon](https://github.com/MCSP-Site/PojavZenithHorizon) | 由墨北MovTery基于 PojavLauncher 深度魔改，是其后续项目 ZalithLauncher 的前身。 |
 | **SolCraftLauncher** | [https://github.com/SCL-ARCHIVE/SolCraftLauncher](https://github.com/SCL-ARCHIVE/SolCraftLauncher) | PojavLauncher/Amethyst 的 Fork，增加了更多技术特性、新渲染器和 QOL 改进。 |
 | **XDAetherium** | [https://github.com/Promastergame/XDAetherium](https://github.com/Promastergame/XDAetherium) | 基于 Amethyst/PojavLauncher 的 Fork，支持 Ely.by 账户和离线账户，优化了 ARM 设备性能。 |
