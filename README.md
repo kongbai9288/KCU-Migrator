@@ -5,6 +5,11 @@
 
 “更好的迁移就在你的手中”-----项目发起者kongbai9288
 
+[![Android CI](https://github.com/kongbai9288/KCU-Migrator/actions/workflows/build.yml/badge.svg)](https://github.com/kongbai9288/KCU-Migrator/actions/workflows/build.yml)
+![Downloads](https://img.shields.io/github/downloads/kongbai9288/KCU-Migrator/total?style=flat-square&color=6C5CE7)
+![Release](https://img.shields.io/github/v/release/kongbai9288/KCU-Migrator?style=flat-square&color=6C5CE7)
+[![Website](https://img.shields.io/badge/Website-KCU--Migrator-6C5CE7?style=flat-square)](https://kongbai9288.github.io/KCU-Migrator/)
+
 本项目目前支持 FCL、Zalith、Pojav、Amethyst、HMCL-PE、澪-Ultimate 等大部分安卓Java edition启动器（正在努力适配T_T）
 
 本项目使用AI生成代码，由人设计架构与实现方式并累计审核89次（数据至2026/10/14），如有不赞成，可以暂停使用本项目
