@@ -1,14 +1,11 @@
-name: Bug 反馈测试
-description: 测试模板是否生效
-title: "[Bug] "
-labels: ["bug"]
+name: 模板测试
+description: 测试表单是否正常加载
 body:
   - type: markdown
     attributes:
-      value: 如果你看到这句话，说明模板生效了！
+      value: |
+        如果看到这句话，说明模板加载成功。
   - type: input
     id: version
     attributes:
       label: 版本号
-    validations:
-      required: true
