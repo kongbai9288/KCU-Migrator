@@ -1,4 +1,6 @@
 
+### 2. Bug 反馈模板
+路径：`.github/ISSUE_TEMPLATE/bug_report.yml`
 
 ```yaml
 name: Bug 反馈
