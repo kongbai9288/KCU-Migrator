@@ -1,6 +1,5 @@
 name: 意见反馈
 description: 反馈
-title: '[建议] '
 labels: ['enhancement']
 body:
   - type: checkboxes
@@ -8,7 +7,7 @@ body:
     attributes:
       label: 确认
       options:
-        - label: 我确定这是真实要求
+        - label: 我确定这是真实需求
           required: true
 
   - type: textarea
