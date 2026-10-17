@@ -1,11 +1,44 @@
-name: 模板测试
-description: 测试表单是否正常加载
+name: Bug 反馈
+description: 报告迁移失败、闪退或存档数据异常
+title: "[Bug] "
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        如果看到这句话，说明模板加载成功。
+        感谢反馈。提交前请确认已经做好数据备份。
   - type: input
-    id: version
+    id: app-version
     attributes:
-      label: 版本号
+      label: KCU-Migrator 版本
+      placeholder: 例如 v0.1.0-alpha
+    validations:
+      required: true
+  - type: input
+    id: launcher
+    attributes:
+      label: 启动器与版本
+      placeholder: 例如 FCL 1.2.3 / Zalith 2.0
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 选择旧目录...
+        2. 勾选模组并点击迁移...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志或截图
+      render: shell
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认项
+      options:
+        - label: 我已备份相关数据，并确认搜索过现有 Issue
+          required: true
