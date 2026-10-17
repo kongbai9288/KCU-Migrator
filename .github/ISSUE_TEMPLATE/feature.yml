@@ -8,7 +8,7 @@ body:
     attributes:
       label: 确认
       options:
-        - label: 拒绝许愿，拒绝废话
+        - label: 我确定这是真实要求
           required: true
 
   - type: textarea
