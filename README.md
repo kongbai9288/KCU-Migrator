@@ -97,6 +97,12 @@
 ## 测试版
 
 [KCU测试版](https://github.com/kongbai9288/mc-mod-migrator)
+
+[![Android CI](https://img.shields.io/github/actions/workflow/status/kongbai9288/mc-mod-migrator/build-apk.yml?branch=main&label=Kcu-beta&style=flat-square&color=6C5CE7)](https://github.com/kongbai9288/mc-mod-migrator/actions/workflows/build-apk.yml)
+![Downloads](https://img.shields.io/github/downloads/kongbai9288/mc-mod-migrator/total?style=flat-square&color=6C5CE7)
+![Release](https://img.shields.io/github/v/release/kongbai9288/mc-mod-migrator?include_prereleases&label=Kcu-beta&style=flat-square&color=6C5CE7)
+
+
 - ⚠️注意：这可能会使你的运行出现严重错误，非测试人员请勿使用本版本（如你使用了此版本，造成的失误将自行承担）
 
 ## 项目历史
