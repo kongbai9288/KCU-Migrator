@@ -1,0 +1,19 @@
+name: 意见反馈
+description: 反馈
+title: '[建议] '
+labels: ['enhancement']
+body:
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 拒绝许愿，拒绝废话
+          required: true
+
+  - type: textarea
+    id: content
+    attributes:
+      label: 内容
+    validations:
+      required: true
