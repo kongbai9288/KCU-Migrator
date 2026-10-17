@@ -4,7 +4,7 @@ body:
   - type: textarea
     id: gunmu
     attributes:
-      label: " "
-      placeholder: " "
+      label: "好难猜人没有滚木会怎么样？"
+      placeholder: "忍着呗"
     validations:
       required: false
