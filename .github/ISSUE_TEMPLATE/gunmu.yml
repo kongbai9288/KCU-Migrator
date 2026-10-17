@@ -1,0 +1,10 @@
+name: 滚木
+description: 你值得拥有
+body:
+  - type: textarea
+    id: gunmu
+    attributes:
+      label: " "
+      placeholder: " "
+    validations:
+      required: false
