@@ -1,6 +1,5 @@
 name: 意见反馈
 description: 反馈
-title: '[建议] '
 body:
   - type: checkboxes
     id: confirm
@@ -9,7 +8,6 @@ body:
       options:
         - label: 我确定这是真实需求
           required: true
-
   - type: textarea
     id: content
     attributes:
