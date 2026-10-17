@@ -1,0 +1,75 @@
+name: Bug反馈
+description: 提交Bug
+title: '[Bug] '
+labels: ['bug']
+body:
+  - type: checkboxes
+    id: pre_checks
+    attributes:
+      label: 前置确认（必须勾选才能提交）
+      options:
+        - label: 我已明白，此问题不是启动器导致的问题
+          required: true
+        - label: 我确定我反馈的是真实问题
+          required: true
+        - label: 我愿意提供由我选定工作目录中的相关日志以便开发者分析
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      placeholder: 例如 v0.1.0-alpha
+    validations:
+      required: true
+
+  - type: input
+    id: system
+    attributes:
+      label: 系统
+      placeholder: 例如 Android 13 / MIUI 14
+    validations:
+      required: true
+
+  - type: input
+    id: from_launcher
+    attributes:
+      label: 原启动器
+    validations:
+      required: true
+
+  - type: input
+    id: to_launcher
+    attributes:
+      label: 目标启动器
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 描述
+      placeholder: 简单直接地说明你遇到了什么问题
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开 KCU-Migrator，选择...
+        2. 勾选...
+        3. 点击迁移...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志
+      description: 请去你选定工作目录中，找到 latest.log 或 crash-reports 文件夹里的文件，把里面的文字全部复制粘贴过来。只发截图没法查。
+      placeholder: 在这里粘贴日志文本...
+      render: shell
+    validations:
+      required: true
