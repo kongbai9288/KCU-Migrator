@@ -6,7 +6,7 @@ body:
   - type: checkboxes
     id: pre_checks
     attributes:
-      label: 前置确认（必须勾选才能提交）
+      label: 前置确认
       options:
         - label: 我已明白，此问题不是启动器导致的问题
           required: true
@@ -68,7 +68,7 @@ body:
     id: logs
     attributes:
       label: 日志
-      description: 请去你选定工作目录中，找到 latest.log 或 crash-reports 文件夹里的文件，把里面的文字全部复制粘贴过来。只发截图没法查。
+      description: 去选定工作目录中找 latest.log 或 crash-reports 文件夹，复制文本贴过来。只发截图没法查。
       placeholder: 在这里粘贴日志文本...
       render: shell
     validations:
