@@ -1,5 +1,5 @@
 name: 意见反馈
-description: 反馈
+description: 我要反馈意见
 body:
   - type: checkboxes
     id: confirm
